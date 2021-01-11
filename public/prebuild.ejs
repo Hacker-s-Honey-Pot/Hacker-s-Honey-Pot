@@ -1,0 +1,34 @@
+<%- include('./includes/head') %>
+<%- include('./includes/nav') %>
+<div class="text-center">
+<br>
+<h1>Prebuild Honney Pots</h1>
+<h3>Honney Pots By Us</h3>
+<br>
+<div id="wp">
+<h2>Wordpress login honey pot</h2>
+<h3><a href="https://github.com/Hacker-s-Honey-Pot/Prebuild-Honey-Pots/raw/main/WP%20Login%20HTML.zip" target="_blank"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#wpModal"><i class="fa fa-download" aria-hidden="true"></i> HTML Version</button></a>
+</div>
+<br>
+</div>
+
+<div class="modal fade" id="wpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">How to:</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        1. Dowload the file<br>
+        2. Extract it on your webserver's main directory<br>
+        Recomended: Redirect <code>wp-admin</code> to <code>wp-login.php</code>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include('./includes/scripts') %>
